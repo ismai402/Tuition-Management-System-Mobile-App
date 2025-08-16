@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "519381248287",
+    "project_id": "edututor-9c97c",
+    "storage_bucket": "edututor-9c97c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:519381248287:android:e13c3999d563f96dcb282a",
+        "android_client_info": {
+          "package_name": "com.example.edututor"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCECGMS632OOG2L9-Aa7CkvDwOn_Ps9mFM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
