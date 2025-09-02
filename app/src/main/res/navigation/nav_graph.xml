@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.edututor.ui.auth.LoginFragment"
+        android:label="Login">
+        <action
+            android:id="@+id/action_login_to_register"
+            app:destination="@id/registerFragment" />
+        <action
+            android:id="@+id/action_login_to_tutorDashboard"
+            app:destination="@id/tutorDashboardFragment" />
+        <action
+            android:id="@+id/action_login_to_studentDashboard"
+            app:destination="@id/studentDashboardFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.example.edututor.ui.auth.RegisterFragment"
+        android:label="Register" />
+
+    <fragment
+        android:id="@+id/tutorDashboardFragment"
+        android:name="com.example.edututor.ui.tutor.TutorDashboardFragment"
+        android:label="Tutor Dashboard" />
+
+    <fragment
+        android:id="@+id/studentDashboardFragment"
+        android:name="com.example.edututor.ui.student.StudentDashboardFragment"
+        android:label="Student Dashboard" />
+</navigation>

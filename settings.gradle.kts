@@ -19,6 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "EduTutor"
-include(":app")
- 
+rootProject.name = "EduTutorMobile"
+include (":app") // This line should be here
